@@ -1,0 +1,18 @@
+@mixin flex($align-items: flex-start, $justify-content: flex-start,$flex-direction:row, $gap: 0) {
+  display: flex;
+  align-items: $align-items;
+  justify-content: $justify-content;
+  gap: $gap;
+}
+
+@mixin iconHover {
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  background-color: map-get($colors, "bg-icons-hover");
+}
+
+@mixin nameHover {
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  opacity: 1;
+}
