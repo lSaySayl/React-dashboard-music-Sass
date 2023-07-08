@@ -61,6 +61,7 @@ li {
   width: 40px;
   height: 40px;
   font-size: 25px;
+  color: #143F6B;
   background-color: #5179A3;
   border-radius: 20%;
 }
@@ -105,5 +106,119 @@ li {
 }
 
 .main {
+  display: flex;
+  gap: 5%;
   width: 80%;
+  padding: 0 3%;
+}
+.main__section-one {
+  width: 70%;
+}
+.main__section-one .card {
+  height: 30%;
+  background: url("https://raw.githubusercontent.com/lSaySayl/imagenesExternas/main/hero.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.main__section-one .card__container {
+  padding: 20px 22px;
+  height: 100%;
+}
+.main__section-one .card__container-title {
+  color: #143F6B;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.main__section-one .card__container-subtitle {
+  width: 39%;
+  color: #af1743;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.6px;
+}
+.main__section-one .card__container-icons {
+  margin-top: 8%;
+}
+.main__section-one .card__container-icons-temperature {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 6px;
+}
+.main__section-one .card__container-icons-temperature svg {
+  width: 30px;
+  height: 30px;
+  color: #143F6B;
+}
+.main__section-one .card__container-icons-temperature span {
+  color: #143F6B;
+  font-family: MuseoModerno;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.75px;
+}
+.main__section-two {
+  width: 30%;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form__section {
+  position: relative;
+  margin: 46px 0;
+}
+.form__section-icon {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 30px;
+  width: 33px;
+  height: 33px;
+  color: #143F6B;
+  opacity: 0.5;
+}
+.form__section-input {
+  width: 708px;
+  height: 55px;
+  border-radius: 12px;
+  background-color: #a8bcd1;
+  border-radius: 12px;
+  color: #143F6B;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0 15%;
+  border: none;
+  outline: none;
+}
+.form__section-input::-moz-placeholder {
+  color: #143F6B;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0 0%;
+}
+.form__section-input::placeholder {
+  color: #143F6B;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0 0%;
+}
+.form__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 46px 0;
+  gap: 6px;
+  width: 90px;
+  height: 55px;
+  border-radius: 12px;
+  background-color: #143F6B;
+}
+.form__button-text {
+  color: #FFFFFF;
+  font-size: 17px;
+  font-weight: 400;
 }/*# sourceMappingURL=app.css.map */

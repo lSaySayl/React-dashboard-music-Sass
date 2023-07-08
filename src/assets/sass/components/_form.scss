@@ -1,0 +1,65 @@
+.form {
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__section {
+        position: relative;
+        margin: 46px 0;
+
+        &-icon {
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            font-size: 30px;
+            width: 33px;
+            height: 33px;
+            @include mapColor("bg-sidebar-button");
+            opacity: 0.5;
+        }
+
+        &-input {
+            width: 708px;
+            height: 55px;
+            border-radius: 12px;
+            background-color: #a8bcd1;
+            border-radius: 12px;
+            @include mapColor("bg-sidebar-button");
+            font-size: 15px;
+            font-weight: 400;
+            padding: 0 15%;
+            border: none;
+            outline: none;
+
+            &::placeholder {
+                @include mapColor("bg-sidebar-button");
+                font-size: 15px;
+                font-weight: 400;
+                padding: 0 0%;
+            }
+        }
+    }
+
+    &__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 46px 0;
+        gap: 6px;
+        width: 90px;
+        height: 55px;
+        border-radius: 12px;
+        @include mapBg ("bg-sidebar-button");
+
+        &-text {
+            @include mapColor ("text");
+            font-size: 17px;
+            font-weight: 400;
+
+        }
+
+
+
+    }
+}
