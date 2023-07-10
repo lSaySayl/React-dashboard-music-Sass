@@ -1,0 +1,56 @@
+.card__music {
+  &-pink {
+    @include mapBg("bg-icons-hover");
+    @include cardMusic;
+
+    h3 {
+      color: #af1743;
+      font-size: 32px;
+      font-weight: 600;
+      letter-spacing: 1.6px;
+    }
+
+    p {
+      color: #143f6b;
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 0.6px;
+    }
+  }
+
+  &-aquamarine {
+    @include mapBg("bg-jazz");
+    @include cardMusic;
+    h3 {
+      color: #f9f9f9;
+      font-size: 32px;
+      font-weight: 600;
+      letter-spacing: 1.6px;
+    }
+
+    p {
+        color:  #f9f9f9;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 0.6px;
+      }
+  }
+
+  &-blue {
+    @include mapBg("bg-icons");
+    @include cardMusic;
+    h3 {
+      color: #f9f9f9;
+      font-size: 32px;
+      font-weight: 600;
+      letter-spacing: 1.6px;
+    }
+
+    p {
+      color:  #f9f9f9;
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 0.6px;
+    }
+  }
+}

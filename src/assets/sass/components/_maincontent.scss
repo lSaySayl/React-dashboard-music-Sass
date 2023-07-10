@@ -59,6 +59,13 @@
           }
         }
       }
+
+      h2 {
+        @include mapColor("bg-sidebar-button");
+        font-size: 32px;
+        font-weight: 700;
+        letter-spacing: 1.6px;
+      }
     }
 
     &-two {
