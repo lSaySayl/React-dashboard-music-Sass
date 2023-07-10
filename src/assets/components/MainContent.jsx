@@ -8,6 +8,7 @@ const MainContent = () => {
       <section className="main__section-one">
         <Form />
         <Card/>
+        <h1>A</h1>
       </section>
 
       <section className="main__section-two">
