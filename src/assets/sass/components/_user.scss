@@ -1,0 +1,34 @@
+.user {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color: rgb(36, 29, 29); */
+
+  &__profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 60%;
+    margin-left: 20px;
+
+    &-icon {
+      width: 34px;
+      height: 34px;
+      flex-shrink: 0;
+    }
+
+    &-name {
+      color: #143f6b;
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    p {
+      color: #143f6b;
+      font-size: 14px;
+      font-weight: 300;
+    }
+  }
+
+}
