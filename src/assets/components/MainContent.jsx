@@ -12,9 +12,11 @@ const MainContent = () => {
         <Form />
         <Card />
         <h2>Discover</h2>
+        <section className="main__section-one-cards">
         <CardMusic color={"pink"} title={"Guitar"} tracks={"50 Tracks"} img={guitar} />
         <CardMusic color={"aquamarine"} title={"Jazz Holic"} tracks={"25 Tracks"} img={jazz} />
         <CardMusic color={"blue"} title={"Good times"} tracks={"20 Tracks"} img={times} />
+        </section>
       </section>
 
       <section className="main__section-two">
