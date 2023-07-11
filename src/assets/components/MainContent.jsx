@@ -5,6 +5,7 @@ import guitar from "../img/guitar.svg";
 import jazz from "../img/jazz.svg";
 import times from "../img/times.svg";
 import User from "./User";
+import Artist from "./Artist";
 
 const MainContent = () => {
   return (
@@ -21,8 +22,9 @@ const MainContent = () => {
       </section>
 
       <section className="main__section-two">
-        {/* <h1 className="sidebar__container-title">Mozika</h1> */}
         <User/>
+        <h2>Favorite artist</h2>
+        <Artist/>
         
       </section>
     </main>

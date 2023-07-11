@@ -1,12 +1,5 @@
-
-
 const Button = () => {
-    return (
-        <button className="button">
-        
-            
-        </button>
-    );
-}
+  return <button className="button">Subscribe</button>;
+};
 
 export default Button;
