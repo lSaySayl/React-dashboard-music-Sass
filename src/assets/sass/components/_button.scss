@@ -1,0 +1,18 @@
+.button {
+  width: 116px;
+  height: 42px;
+  @include mapBg("bg-sidebar-button");
+  @include mapColor("text");
+  border: none;
+  box-shadow: 0px 0px 24px 0px rgba(20, 63, 107, 0.25);
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1.12px;
+
+  &:hover {
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    @include mapBg("bg-hover-button")
+  }
+}
