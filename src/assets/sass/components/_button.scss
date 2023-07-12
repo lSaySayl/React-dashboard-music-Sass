@@ -1,6 +1,6 @@
 .button {
-  width: 116px;
-  height: 42px;
+  width: 30%;
+  height: 50px;
   @include mapBg("bg-sidebar-button");
   @include mapColor("text");
   border: none;

@@ -3,12 +3,14 @@ import Button from "./Button";
 const Artist = ({ artist, name, album }) => {
   return (
     <section className="artist">
-      <img src={artist} />
       <section className="artist__info">
-        <span className="artist__info-name">{name}</span>
-        <p className="artist__info-album">{album}</p>
+        <img src={artist} />
+        <section>
+          <span className="artist__info-name">{name}</span>
+          <p className="artist__info-album">{album}</p>
+        </section>
       </section>
-      <Button/>
+      <Button />
     </section>
   );
 };

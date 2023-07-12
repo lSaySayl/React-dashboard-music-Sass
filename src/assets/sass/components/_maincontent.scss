@@ -17,7 +17,7 @@
         &__container {
           padding: 20px 22px;
           height: 100%;
-    
+
           &-title {
             @include mapColor("bg-sidebar-button");
             font-size: 40px;
@@ -72,7 +72,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-       
       }
     }
 
@@ -80,6 +79,14 @@
       margin: 46px 0;
       width: 30%;
       /* background-color: rgb(181, 128, 128); */
+      h2 {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        @include mapColor("bg-icons");
+        font-size: 25px;
+        font-weight: 700;
+        letter-spacing: 1px;
+      }
     }
   }
 }
